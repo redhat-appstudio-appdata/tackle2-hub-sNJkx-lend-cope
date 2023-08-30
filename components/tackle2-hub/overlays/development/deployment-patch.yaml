@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: tackle2-hub
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/shawnhurley-tenant/tackle2-hub/tackle2-hub@sha256:c7b0abcf7d8e8ca93904b6d4634dd101277053b6b66f7801e6ceb38616ed21cd
+        name: container-image
+        resources: {}
+status: {}
