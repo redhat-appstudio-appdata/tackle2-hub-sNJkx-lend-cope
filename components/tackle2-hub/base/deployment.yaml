@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: tackle2-hub
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/shawnhurley-tenant/tackle2-hub/tackle2-hub@sha256:c7b0abcf7d8e8ca93904b6d4634dd101277053b6b66f7801e6ceb38616ed21cd
         imagePullPolicy: Always
         name: container-image
         ports:
